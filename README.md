@@ -45,6 +45,12 @@ Entrar a la terminal del contenedor:
 docker exec -it ros2_dev bash
 ```
 
+# 🚀 3. Preparar el contenedor para instalar micro-ROS Agent
 
+Ejecutar el siguiente comando dentro del contenedor ROS 2:
+
+```bash
+apt update && apt install -y git build-essential python3-pip
+```
 
 
