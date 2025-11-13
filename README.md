@@ -24,3 +24,7 @@ Crear y ejecutar un contenedor Docker con la imagen ros:humble-ros-base:
 ```bash
 docker run -it --name ros2_dev --net=host ros:humble-ros-base bash
 ```
+Verificar variables ROS:
+```bash
+printenv | grep ROS
+```
