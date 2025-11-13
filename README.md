@@ -28,3 +28,23 @@ Verificar variables ROS:
 ```bash
 printenv | grep ROS
 ```
+NOTA: si reinicias la PC y deseas entrar  al contenedor  usar estos paso :
+
+Listar los contenedores existentes:
+```bash
+docker ps -a
+```
+
+Iniciar tu contenedor (si está apagado):
+```bash
+docker start ros2_dev
+```
+
+Entrar a la terminal del contenedor:
+```bash
+docker exec -it ros2_dev bash
+```
+
+
+
+
