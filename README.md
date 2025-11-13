@@ -52,5 +52,17 @@ Ejecutar el siguiente comando dentro del contenedor ROS 2:
 ```bash
 apt update && apt install -y git build-essential python3-pip
 ```
+Instalar colcon dentro del contenedor:
+```bash
+pip3 install -U colcon-common-extensions
+```
+# 🚀 4. Instalar micro-ROS Agent
+
+Ejecuta dentro del contenedor:
+```bash
+mkdir -p microros_ws/src
+cd microros_ws/src
+git clone -b humble https://github.com/micro-ROS/micro-ROS-Agent.git
+```
 
 
