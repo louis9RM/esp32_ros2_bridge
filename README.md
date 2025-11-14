@@ -73,4 +73,16 @@ Para micro-ROS por WiFi (UDP):
 ```bash
 ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 ```
+# 🚀 5. Instalar ESP-IDF en Windows
+Ve a la página oficial:
+```bash
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html
+```
+Descarga el instalador:
+ESP-IDF Tools Installer
+Instala ESP-IDF para ESP32 (versión recomendada: v4.4 o v5.x)
+Abre la consola:
+ESP-IDF PowerShell o ESP-IDF Command Prompt
+
+
 
