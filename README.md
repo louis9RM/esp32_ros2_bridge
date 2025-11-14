@@ -88,5 +88,13 @@ Abre la consola:
 
 ESP-IDF PowerShell o ESP-IDF Command Prompt
 
+Una vez dentro del terminal de ESP-IDF, ejecutas:
+```bash
+idf.py create-project microros_esp32
+```
+Luego clonas el repositorio de micro-ROS para ESP-IDF:
+```bash
+git clone https://github.com/micro-ROS/micro_ros_espidf_component.git components/micro_ros_espidf_component -b humble
+```
 
 
