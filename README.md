@@ -64,5 +64,13 @@ mkdir -p microros_ws/src
 cd microros_ws/src
 git clone -b humble https://github.com/micro-ROS/micro-ROS-Agent.git
 ```
-
+Clonar micro_ros_msgs en el mismo workspace:
+```bash
+cd ~/microros_ws/src
+git clone -b humble https://github.com/micro-ROS/micro_ros_msgs.git
+```
+Para micro-ROS por WiFi (UDP):
+```bash
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+```
 
