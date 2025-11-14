@@ -79,9 +79,13 @@ Ve a la página oficial:
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html
 ```
 Descarga el instalador:
+
 ESP-IDF Tools Installer
+
 Instala ESP-IDF para ESP32 (versión recomendada: v4.4 o v5.x)
+
 Abre la consola:
+
 ESP-IDF PowerShell o ESP-IDF Command Prompt
 
 
